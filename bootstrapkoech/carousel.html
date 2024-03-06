@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<div class="w3-container w3-center w3-animate-top">
+  <h1>Animation is Fun!</h1>
+  <p>The w3-animate-top class slides in an element from the top.</p>
+</div>
+
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="image1.webp" class="d-block w-100 vh-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam esse expedita ipsam, itaque iure laborum molestiae nobis, officia perferendis recusandae vel vero voluptatem? Debitis, quis quod? Dicta iusto odit optio?</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="image2.webp" class="d-block w-100 vh-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus assumenda dolorem explicabo molestias nisi quae sunt tempore veniam veritatis! Corporis cumque eveniet hic minus mollitia placeat tempora tenetur? Ipsa?</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image3.jpg" class="d-block w-100 vh-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet eveniet harum impedit itaque labore laudantium natus nisi nulla perspiciatis quisquam, quo recusandae reiciendis rem repellat sint sunt ullam voluptas!</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
+</div>
+
+</body>
+ </html>
